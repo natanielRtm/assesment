@@ -1,11 +1,12 @@
 <template>
-  <div id="nav">
+  <div class="header">
+    <div id="nav">
     <img alt="Vue logo" src="../assets/logo.png" />
     <div>
       <div class="menu">
-        <router-link to="/">Home</router-link>
-        <router-link to="/about">Discover</router-link>
-        <router-link to="/register">Register</router-link>
+        <a href="#" class="target" >Home</a>
+        <a href="#discover" class="target">Discover</a>
+        <a href="#map-box" class="target">Register</a>
         <i class="fas fa-search" id="search"></i>
       </div>
       <input type="checkbox" id="check" />
@@ -15,13 +16,15 @@
       </label>
     </div>
   </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Navbar",
-  //   props: ["name", "logoImg", "navLinks"],
+
 };
+
 </script>
 
 <style lang="scss" scoped>

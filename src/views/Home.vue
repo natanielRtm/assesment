@@ -19,21 +19,22 @@
       </div>
       <b-form class="d-flex justify-content-between m-2">
         <b-form-input
-          id="inline-form-input-name"
+          id="inline-form-input-email"
           class="p-2"
-          placeholder="Jane Doe"
+          placeholder="Email"
         ></b-form-input>
         <span>&#8287;&#8287;&#8287;</span>
         <b-form-input
           class="p-2"
-          id="inline-form-input-username"
-          placeholder="Username"
+          id="inline-form-input-password"
+          type="password"
+          placeholder="Password"
         ></b-form-input>
         <span>&#8287;&#8287;&#8287;</span>
         <b-button variant="primary" class="p-2">Login</b-button>
       </b-form>
     </div>
-    <div class="discover">
+    <div class="discover" id="discover">
       <i class="fas fa-desktop mb-2"></i>
       <p><strong>DISCOVER</strong></p>
       <p>BOOKED TOOL</p>
@@ -87,7 +88,7 @@
       </b-tabs>
     </div>
 
-    <div class="map-box">
+    <div class="map-box" id="map-box">
       <div class="map">
         <i class="fas fa-route"></i>
         <p><strong>Get in touch</strong></p>
@@ -132,7 +133,7 @@
                 rows="5"
                 class="p-2"
               ></b-form-textarea>
-              <b-button class="mt-3 p-2" variant="primary">Primary</b-button>
+              <b-button class="mt-3 p-2" variant="primary">Send</b-button>
             </b-form-group>
           </div>
         </div>
